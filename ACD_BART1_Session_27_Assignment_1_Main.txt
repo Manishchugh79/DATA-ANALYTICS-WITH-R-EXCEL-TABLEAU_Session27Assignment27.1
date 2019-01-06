@@ -43,7 +43,8 @@ Answer:
 Select title,count(actor_id) from film f inner join film_actor fa on f.film_id=fa.film_id group by title having count(actor_id)>10 limit 10; 
 (assumed average actors/film=10).
 
-
+path: DATA-ANALYTICS-WITH-R-EXCEL-TABLEAU_Session27Assignment27.1/27.1.png
+      
 
 6. Expected Output
 N/A
